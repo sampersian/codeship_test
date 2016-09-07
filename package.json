@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "mocha"
   },
   "dependencies": {
     "body-parser": "~1.15.1",
@@ -18,5 +19,21 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "supertest": "^2.0.0"
-  }
+  },
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sampersian/codeship_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sampersian/codeship_test/issues"
+  },
+  "homepage": "https://github.com/sampersian/codeship_test#readme",
+  "description": ""
 }
